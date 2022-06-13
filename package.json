@@ -1,0 +1,52 @@
+{
+  "name": "clocking-system",
+  "version": "1.0.0",
+  "description": "A web application for workers attendance at work place",
+  "main": "App.js",
+  "scripts": {
+    "dev": "webpack --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "serve": "live-server public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imSamaritan/clocking-system.git"
+  },
+  "keywords": [
+    "javascript",
+    "css",
+    "html",
+    "scss",
+    "bootstrap",
+    "icons",
+    "libraries",
+    "webpack",
+    "webpack-cli",
+    "php8",
+    "mysql",
+    "sql"
+  ],
+  "author": "imsamaritan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imSamaritan/clocking-system/issues"
+  },
+  "homepage": "https://github.com/imSamaritan/clocking-system#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "sass": "^1.52.1",
+    "sass-loader": "^13.0.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.8.2"
+  }
+}
