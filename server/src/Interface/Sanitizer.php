@@ -1,4 +1,4 @@
 <?php
-namespace Imsamaritan\Server\Interface;
+namespace getwebcreations\interface;
 
 interface Sanitizer {}

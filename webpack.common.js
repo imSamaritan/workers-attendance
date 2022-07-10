@@ -31,7 +31,7 @@ module.exports = {
 	},
 	plugins: [new HtmlWebpackPlugin({
 		filename: 'index.html',
-		title: 'Workers Attendance',
+		title: 'getWebCreations',
 		template: path.resolve(__dirname, 'src/index.html'),
 	})]
 

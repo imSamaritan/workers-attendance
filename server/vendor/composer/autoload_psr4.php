@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Imsamaritan\\Server\\' => array($baseDir . '/src'),
+    'getwebcreations\\server\\' => array($baseDir . '/src'),
 );
